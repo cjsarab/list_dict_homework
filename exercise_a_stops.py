@@ -24,6 +24,9 @@ stops.remove("Livingston")
 
 stops.remove(stops[2])
 
+#Prefer>>>
+stops.pop(stops.index("Cumbernauld"))
+
 #7. Print the number of stops there are in the list
 
 total_stops = len(stops)
